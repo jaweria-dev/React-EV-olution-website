@@ -1,0 +1,38 @@
+/* src/components/ExplorePage.css */
+
+.explore-container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .explore-container h2 {
+    color: #333;
+  }
+  
+  .explore-container p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .explore-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .explore-container li {
+    margin-bottom: 8px;
+  }
+  
+  .explore-container li:before {
+    content: '\2022'; /* Bullet point */
+    color: #666;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
